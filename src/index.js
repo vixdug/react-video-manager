@@ -34,7 +34,7 @@ this.videoSearch('beaver eating wood')
 
   render() {
 
-    const videoSearch = _.debounce((term) => {this.videoSearch(term)}, 300);
+    const videoSearch = _.debounce((term) => {this.videoSearch(term)}, 500);
 
   return  (
     <div>
